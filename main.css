@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/cloud-blue-sky.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: poppin, 'Times New Roman', Times, serif ;
+    width: 100%;
+    z-index: -1;
+}
+.all-content {
+    height: 700px;
+    position: relative;
+    z-index: 99;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box form {
+    display: grid;
+}
+.box form input:focus {
+    outline: none;
+}
